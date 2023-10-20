@@ -1,0 +1,12 @@
+.container {
+  max-width: 960px;
+}
+.invalid-feedback{
+  display: none;
+}
+#password2:invalid + #contra2{
+display: block;
+}
+#password2:valid + #contra2{
+display: none;
+}
