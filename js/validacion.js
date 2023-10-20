@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     });
     setTimeout(() => {
-        if (contra1.value.length < 6) {
+        if (contra1.value.length < 6 && contra1.value.length>0) {
             contra1.classList.add('is-invalid');
         } else {
             if (contra1.classList.contains('is-invalid')) {
